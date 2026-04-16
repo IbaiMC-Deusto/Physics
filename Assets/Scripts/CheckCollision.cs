@@ -30,6 +30,7 @@ public class CheckCollision : MonoBehaviour
         {
             Debug.Log("Exiting collision");
         }
+        //Destroy(this.gameObject);
     }
 
 
