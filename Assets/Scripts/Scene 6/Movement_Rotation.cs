@@ -34,7 +34,7 @@ public class Movement_Rotation : MonoBehaviour
         }
 
         if (Input.GetKey(KeyCode.S))
-        {
+        { 
             this.transform.position += -1 * this.transform.forward * velocityMovement * Time.deltaTime;
         }
     }
