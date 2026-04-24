@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4715084520758595536}
   - component: {fileID: 4377182107709606696}
   - component: {fileID: 4336394613361902454}
+  - component: {fileID: 6347829144202042009}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -106,9 +107,22 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6347829144202042009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5200626718345566756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1701a4acbaa52e448f33563e2af859e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WallLife
+  lifes: 3
